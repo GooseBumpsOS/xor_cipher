@@ -24,10 +24,14 @@
     <input class="form-control" id="openText"  type="text" placeholder="Открытый текст">
     <input class="form-control" id="key" type="text" min="1" required  placeholder="Ключ">
     <input class="form-control" id="cipherText" type="text" placeholder="Шифротекст">
+	<input class="form-control" id="N" max="32" min="1" type="number" value="26" placeholder="Модуль N">
+
 
     <button type="button" id="buttonStart" class="btn btn-success">Расшифровка/Дешифровка</button>
 </div>
 
+<h3>Открытый текст: <span></span></h3>
+<h3>Шифротекст: <span></span></h3>
 
 </body>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
